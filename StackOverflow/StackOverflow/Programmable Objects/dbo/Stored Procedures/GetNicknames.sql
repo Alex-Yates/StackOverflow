@@ -1,0 +1,17 @@
+IF OBJECT_ID('[dbo].[GetNicknames]') IS NOT NULL
+	DROP PROCEDURE [dbo].[GetNicknames];
+
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+--SET QUOTED_IDENTIFIER ON|OFF
+--SET ANSI_NULLS ON|OFF
+--GO
+CREATE PROCEDURE [dbo].[GetNicknames]
+   
+AS
+    SELECT Nickname
+    FROM   dbo.Users;
+GO
