@@ -173,6 +173,7 @@
     <Folder Include="Migrations\1.1.0-Changes\" />
     <Folder Include="Programmable Objects\" />
     <Folder Include="Programmable Objects\dbo\" />
+    <Folder Include="Programmable Objects\dbo\Views\" />
     <Folder Include="Programmable Objects\dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
@@ -196,6 +197,7 @@
     <None Include="Schema-Model\dbo\Tables\VoteTypes.sql" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Programmable Objects\dbo\Views\rptTopUsers.sql" />
     <None Include="Migrations\1.1.0-Changes\001_20190816-1320_redgate.sql" />
     <None Include="Programmable Objects\dbo\Stored Procedures\GetNicknames.sql" />
   </ItemGroup>
