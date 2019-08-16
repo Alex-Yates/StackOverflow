@@ -171,6 +171,9 @@
     <Folder Include="Schema-Model\dbo\" />
     <Folder Include="Schema-Model\dbo\Tables\" />
     <Folder Include="Migrations\1.1.0-Changes\" />
+    <Folder Include="Programmable Objects\" />
+    <Folder Include="Programmable Objects\dbo\" />
+    <Folder Include="Programmable Objects\dbo\Views\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
@@ -191,5 +194,8 @@
     <None Include="Schema-Model\dbo\Tables\Users.sql" />
     <None Include="Schema-Model\dbo\Tables\Votes.sql" />
     <None Include="Schema-Model\dbo\Tables\VoteTypes.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Views\rptTopUsers.sql" />
   </ItemGroup>
 </Project>
