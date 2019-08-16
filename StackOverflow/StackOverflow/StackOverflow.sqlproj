@@ -201,4 +201,7 @@
     <None Include="Migrations\1.1.0-Changes\001_20190816-1320_redgate.sql" />
     <None Include="Programmable Objects\dbo\Stored Procedures\GetNicknames.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Views\userrpt.sql" />
+  </ItemGroup>
 </Project>
